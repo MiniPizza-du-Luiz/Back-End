@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carli\\OneDrive\\Desktop\\Minipizza\\Back-End\\MiniPizza\\MiniPizza.csproj": {}
+    "D:\\MiniPizza\\Back-End\\MiniPizza\\MiniPizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carli\\OneDrive\\Desktop\\Minipizza\\Back-End\\MiniPizza\\MiniPizza.csproj": {
+    "D:\\MiniPizza\\Back-End\\MiniPizza\\MiniPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carli\\OneDrive\\Desktop\\Minipizza\\Back-End\\MiniPizza\\MiniPizza.csproj",
+        "projectUniqueName": "D:\\MiniPizza\\Back-End\\MiniPizza\\MiniPizza.csproj",
         "projectName": "MiniPizza",
-        "projectPath": "C:\\Users\\carli\\OneDrive\\Desktop\\Minipizza\\Back-End\\MiniPizza\\MiniPizza.csproj",
+        "projectPath": "D:\\MiniPizza\\Back-End\\MiniPizza\\MiniPizza.csproj",
         "packagesPath": "C:\\Users\\carli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carli\\OneDrive\\Desktop\\Minipizza\\Back-End\\MiniPizza\\obj\\",
+        "outputPath": "D:\\MiniPizza\\Back-End\\MiniPizza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -53,6 +53,30 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -74,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
