@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MiniPizza.Model;
 
 namespace MiniPizza.Data
 {
@@ -8,6 +9,7 @@ namespace MiniPizza.Data
         {
         }
 
-        public DbSet<MiniPizza.Model.PizzaModel> Pizzas { get; set; }
+        public DbSet<PizzaModel> Pizzas { get; set; }
+        public DbSet<StockModel> Stocks { get; set; }
     }
 }

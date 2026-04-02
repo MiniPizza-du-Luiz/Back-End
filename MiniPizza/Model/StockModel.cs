@@ -2,8 +2,8 @@ namespace MiniPizza.Model
 {
     public class StockModel
     {
-        int Id { get; set; }
-        int PizzaId { get; set; }
-        int Quantity { get; set; }
+        public int Id { get; set; }
+        public int PizzaId { get; set; }
+        public int Quantity { get; set; }
     }
 }
