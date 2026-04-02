@@ -11,5 +11,8 @@ namespace MiniPizza.Data
 
         public DbSet<PizzaModel> Pizzas { get; set; }
         public DbSet<StockModel> Stocks { get; set; }
+        public DbSet<MarketModel> Markets { get; set; }
+        public DbSet<OrderedItemModel> OrderedItems { get; set; }
+        public DbSet<OrderModel> Orders { get; set; }
     }
 }
