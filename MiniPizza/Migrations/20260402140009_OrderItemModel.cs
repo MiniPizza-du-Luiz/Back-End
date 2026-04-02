@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MiniPizza.Migrations
 {
     /// <inheritdoc />
-    public partial class OrderedItemModel : Migration
+    public partial class OrderItemModel : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

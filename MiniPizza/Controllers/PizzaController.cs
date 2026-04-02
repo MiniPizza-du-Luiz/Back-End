@@ -22,5 +22,5 @@ namespace MiniPizza.Controllers
             return Ok(pizzas);
         }
     }
-
+        
 }
